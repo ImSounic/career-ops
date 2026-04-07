@@ -36,11 +36,19 @@ The evaluation uses 6 blocks (A-F) with a global score of 1-5:
 | Red flags | Blockers, warnings (negative adjustments) |
 | **Global** | Weighted average of above |
 
-**Score interpretation:**
-- 4.5+ → Strong match, recommend applying immediately
+**Score interpretation (internship-calibrated):**
+- 4.5+ → Strong match, apply immediately
 - 4.0-4.4 → Good match, worth applying
-- 3.5-3.9 → Decent but not ideal, apply only if specific reason
-- Below 3.5 → Recommend against applying (see Ethical Use in CLAUDE.md)
+- 3.5-3.9 → Decent, apply if geography/timing works
+- 3.0-3.4 → Stretch, apply only if specific reason (learning opportunity, brand, location)
+- Below 3.0 → Recommend against applying
+
+**Internship scoring weights:**
+- Match con CV: 30% (skills alignment — accept "learning opportunity" for partial matches)
+- North Star alignment: 25% (does this advance ML/AI career trajectory?)
+- Geography + timing: 20% (NL > DE > EU; Sep 2026 start; 12-16 weeks)
+- Cultural signals: 15% (mentorship, team quality, tech stack modernity)
+- Comp: 10% (stipend matters less than quality of work for internships)
 
 ## Archetype Detection
 
@@ -48,12 +56,12 @@ Classify every offer into one of these types (or hybrid of 2):
 
 | Archetype | Key signals in JD |
 |-----------|-------------------|
-| AI Platform / LLMOps | "observability", "evals", "pipelines", "monitoring", "reliability" |
-| Agentic / Automation | "agent", "HITL", "orchestration", "workflow", "multi-agent" |
-| Technical AI PM | "PRD", "roadmap", "discovery", "stakeholder", "product manager" |
-| AI Solutions Architect | "architecture", "enterprise", "integration", "design", "systems" |
-| AI Forward Deployed | "client-facing", "deploy", "prototype", "fast delivery", "field" |
-| AI Transformation | "change management", "adoption", "enablement", "transformation" |
+| ML / Deep Learning | "model training", "PyTorch", "TensorFlow", "neural networks", "deep learning", "computer vision", "NLP", "transformers" |
+| Data Science / Analytics | "data analysis", "statistics", "A/B testing", "insights", "pandas", "visualization", "experimentation" |
+| Data Engineering | "ETL", "pipelines", "Spark", "Airflow", "data warehouse", "HDFS", "distributed systems", "batch processing" |
+| AI / NLP Research | "research", "benchmarking", "LLM", "fine-tuning", "LoRA", "evaluation", "paper", "novel methods" |
+| Software Engineering (ML-adjacent) | "backend", "API", "microservices", "CI/CD", "Python", "full-stack", "REST", "Django", "Flask" |
+| MLOps / AI Platform | "deployment", "monitoring", "model serving", "Docker", "Kubernetes", "observability", "ML pipelines" |
 
 After detecting archetype, read `modes/_profile.md` for the user's specific framing and proof points for that archetype.
 

@@ -59,33 +59,27 @@ Clasifica la oferta en uno de los 6 arquetipos. Si es híbrido, indica los 2 má
 
 | Arquetipo | Ejes temáticos | Qué compran |
 |-----------|----------------|-------------|
-| **AI Platform / LLMOps Engineer** | Evaluation, observability, reliability, pipelines | Alguien que ponga AI en producción con métricas |
-| **Agentic Workflows / Automation** | HITL, tooling, orchestration, multi-agent | Alguien que construya sistemas de agentes fiables |
-| **Technical AI Product Manager** | GenAI/Agents, PRDs, discovery, delivery | Alguien que traduzca negocio → producto AI |
-| **AI Solutions Architect** | Hyperautomation, enterprise, integrations | Alguien que diseñe arquitecturas AI end-to-end |
-| **AI Forward Deployed Engineer** | Client-facing, fast delivery, prototyping | Alguien que entregue soluciones AI a clientes rápido |
-| **AI Transformation Lead** | Change management, adoption, org enablement | Alguien que lidere el cambio AI en una organización |
+| **ML / Deep Learning Intern** | Model training, PyTorch, ensemble methods, interpretability | Intern que entrega ML end-to-end con evaluación rigurosa |
+| **Data Science / Analytics Intern** | Análisis estadístico, experimentación, pandas, insights | Intern que extrae insights accionables de datos complejos |
+| **Data Engineering Intern** | PySpark, HDFS, ETL pipelines, distributed computing | Intern que construye pipelines de datos escalables |
+| **AI / NLP Research Intern** | LLM benchmarking, transformers, fine-tuning, ICL | Intern que investiga NLP con rigor y recomendaciones de deployment |
+| **Software Engineering Intern (ML-adjacent)** | Python, Django, REST APIs, full-stack, Flutter | Intern que entrega productos full-stack con integración AI |
+| **MLOps / AI Platform Intern** | ML pipelines, model deployment, monitoring | Intern que conecta research con producción |
 
 **Framing adaptativo:**
 
 > **Las métricas concretas se leen de `cv.md` + `article-digest.md` en cada evaluación. NUNCA hardcodear números aquí.**
 
-| Si el rol es... | Emphasize about the candidate... | Fuentes de proof points |
+| Si el rol es... | Emphasize about the candidate... | Lead proof point |
 |-----------------|--------------------------|--------------------------|
-| Platform / LLMOps | Builder de sistemas en producción, observability, evals, closed-loop | article-digest.md + cv.md |
-| Agentic / Automation | Orquestación multi-agente, HITL, reliability, cost | article-digest.md + cv.md |
-| Technical AI PM | Product discovery, PRDs, métricas, stakeholder mgmt | cv.md + article-digest.md |
-| Solutions Architect | Diseño de sistemas, integrations, enterprise-ready | article-digest.md + cv.md |
-| Forward Deployed Engineer | Fast delivery, client-facing, prototype → prod | cv.md + article-digest.md |
-| AI Transformation Lead | Change management, team enablement, adoption | cv.md + article-digest.md |
+| ML / Deep Learning | NearSMOTE, ensemble models, PyTorch on A100, SHAP interpretability | Thesis: 93.1% AUC-ROC healthcare prediction |
+| Data Science / Analytics | Rigor estadístico, feature engineering, SHAP insights, metodología | Thesis + Crypto market analysis |
+| Data Engineering | PySpark on HDFS, 32GB pipeline, Parquet, adaptive query execution | Crypto: 32GB Binance distributed pipeline |
+| AI / NLP Research | Gemma3 ICL benchmarking, 10 datasets, BERT fine-tuning, 190x throughput | NLP: systematic ICL vs LoRA vs BERT comparison |
+| Software Engineering | Django REST chatbot, Flutter/Supabase full-stack, OAuth, PostgreSQL RLS | CleanSlate app + CoreTek Labs internship |
+| MLOps / AI Platform | End-to-end pipelines, distributed compute, model serving | Thesis pipeline + PySpark cluster deployment |
 
-**Ventaja transversal**: Enmarcar perfil como **"Technical builder"** que adapta su framing al rol:
-- Para PM: "builder que reduce incertidumbre con prototipos y luego productioniza con disciplina"
-- Para FDE: "builder que entrega fast con observability y métricas desde día 1"
-- Para SA: "builder que diseña sistemas end-to-end con experiencia real en integrations"
-- Para LLMOps: "builder que pone AI en producción con closed-loop quality systems — leer métricas de article-digest.md"
-
-Convertir "builder" en señal profesional, no en "hobby maker". El framing cambia, la verdad es la misma.
+**Ventaja transversal**: Enmarcar perfil como **"MSc researcher who ships"** — combina rigor investigador (técnicas novedosas, benchmarking sistemático) con ejecución ingenieril (pipelines en producción, apps full-stack). El framing cambia según el arquetipo, la verdad es la misma.
 
 #### Bloque A — Resumen del Rol
 

@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$TOOL_INPUT\" | grep -qE 'merge-tracker|sync-to-supabase|verify-pipeline'; then node scripts/sync-to-supabase.mjs 2>/dev/null; fi",
+            "timeout": 30000
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$TOOL_INPUT\" | grep -qE 'applications\\.md|pipeline\\.md'; then node scripts/sync-to-supabase.mjs 2>/dev/null; fi",
+            "timeout": 30000
+          }
+        ]
+      }
+    ]
+  }
+}
